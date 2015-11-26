@@ -14,11 +14,27 @@
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
-        <activity android:name=".canvas.ProcessCircleActivity">
+        <activity android:name=".canvas.ProcessCircleActivity"></activity>
+
+        <activity android:name=".intent.SendIntentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".intent.ReceiveIntentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category." />
+                <data
+                    android:host="tuannt.com"
+                    android:scheme="http" />
+                <data
+                    android:scheme="custom.scheme"
+                    android:host="tuannt.com">
+                </data>
             </intent-filter>
         </activity>
     </application>
