@@ -17,10 +17,10 @@
         <activity android:name=".canvas.ProcessCircleActivity"></activity>
 
         <activity android:name=".intent.SendIntentActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
         </activity>
 
         <activity android:name=".intent.ReceiveIntentActivity">
@@ -35,6 +35,13 @@
                     android:scheme="custom.scheme"
                     android:host="tuannt.com">
                 </data>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".opengl.HelloOpenGLActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
