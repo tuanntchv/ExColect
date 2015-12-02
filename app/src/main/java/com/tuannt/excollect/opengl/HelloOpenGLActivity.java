@@ -19,7 +19,7 @@ public class HelloOpenGLActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         mGlSurfaceView = new GLSurfaceView(this);
         mGlSurfaceView.setEGLContextClientVersion(2);
-        mGlSurfaceView.setRenderer(new HelloOpenGLRender());
+        mGlSurfaceView.setRenderer(new HelloOpenGLRender(this));
         setContentView(mGlSurfaceView);
     }
 
