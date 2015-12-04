@@ -3,7 +3,7 @@ package com.tuannt.excollect;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * Comment
+ * Comment cddd
  *
  * @author TuanNT
  */
