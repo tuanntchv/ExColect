@@ -1,6 +1,8 @@
-package com.tuannt.excollect.opengl;
+package com.tuannt.excollect.opengles;
 
 import android.util.Log;
+
+import com.tuannt.excollect.opengl.LoggerConfig;
 
 import static android.opengl.GLES20.GL_COMPILE_STATUS;
 import static android.opengl.GLES20.GL_FRAGMENT_SHADER;
@@ -20,12 +22,13 @@ import static android.opengl.GLES20.glGetShaderiv;
 import static android.opengl.GLES20.glLinkProgram;
 import static android.opengl.GLES20.glShaderSource;
 import static android.opengl.GLES20.glValidateProgram;
+
 /**
  * Comment
  *
  * @author TuanNT
  */
-public class ShaderHelper {
+public class Utils {
     private static final String TAG = "ShaderHelper";
 
     /**
